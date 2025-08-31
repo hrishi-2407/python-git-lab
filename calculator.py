@@ -17,3 +17,9 @@ calci = Calculator(2, 3)
 
 add_result = calci.add()
 print("Addition Result:", add_result)
+
+subtract_result = calci.subtract()
+print("Subtraction Result:", subtract_result)
+
+multiply_result = calci.multiply()
+print("Multiplication Result:", multiply_result)
