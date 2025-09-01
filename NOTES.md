@@ -20,7 +20,6 @@ This file documents all the steps I performed, the commands I used, and the erro
 ## Section B: Python Basics + Git Tracking
 
 **Steps:**
-
 1. Created calculator.py with add(a, b) function.
 2. Staged & committed file.
 3. Pushed to main.
@@ -41,7 +40,6 @@ This file documents all the steps I performed, the commands I used, and the erro
 
 **Commands:**
 - git checkout -b feature/subtraction
-- ## edited calculator.py
 - git add calculator.py
 - git commit -m "Added subtract function"
 - git push origin feature/subtraction
@@ -49,7 +47,6 @@ This file documents all the steps I performed, the commands I used, and the erro
 ## Section D: Stash & Reuse
 
 **Steps:**
-
 1. Began writing multiply(a, b) but left incomplete.
 2. Stashed unfinished work with a message.
 3. Switched to main.
@@ -58,7 +55,6 @@ This file documents all the steps I performed, the commands I used, and the erro
 6. Committed & pushed.
 
 **Commands:**
-- ## unfinished multiply work
 - git stash push -m "WIP multiply function"
 - git checkout main
 - git checkout -b feature/multiplication
@@ -71,7 +67,6 @@ This file documents all the steps I performed, the commands I used, and the erro
 ## Section E: Reverting & Resetting
 
 **Steps:**
-
 1. Merged subtraction PR into main on GitHub.
 2. Pulled latest changes.
 3. Reverted commit for subtract().
@@ -88,8 +83,7 @@ This file documents all the steps I performed, the commands I used, and the erro
 
 ## Section F: Merge Conflicts
 
-**Steps:***
-
+**Steps:**
 1. Created branch feature/conflict-A, added conflict.py with "Hello from A".
 2. Committed & pushed.
 3. Created branch feature/conflict-B from main, added "Hello from B".
@@ -110,13 +104,11 @@ This file documents all the steps I performed, the commands I used, and the erro
 - git commit -m "Add conflict.py from B"
 - git push origin feature/conflict-B
 
-- ## merge steps
 - git checkout main
 - git merge feature/conflict-A
 - git push origin main
 
 - git merge feature/conflict-B
-- ## resolved conflict manually in conflict.py
 - git add conflict.py
 - git commit -m "Resolve merge conflict between A and B"
 - git push origin main
