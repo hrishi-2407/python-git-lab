@@ -113,7 +113,7 @@ This file documents all the steps I performed, the commands I used, and the erro
 - git add conflict.py
 - git commit -m "Resolve merge conflict between A and B"
 - git push origin main
-
+```
 ## Final Learnings
 
 - Practiced full Git workflow: branch, PR, stash, revert, reset, merge conflicts.
