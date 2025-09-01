@@ -93,6 +93,7 @@ This file documents all the steps I performed, the commands I used, and the erro
 7. Resolved conflict locally, chose correct version, committed.
 
 **Commands:**
+```bash
 - git checkout -b feature/conflict-A
 - git add conflict.py
 - git commit -m "Add conflict.py from A"
